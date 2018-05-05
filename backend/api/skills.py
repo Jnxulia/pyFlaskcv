@@ -1,5 +1,5 @@
 from flask_restful import Resource
-from flask import g
+from flask import g , request
 from .utils import json_response
 from bson.json_util import dumps
 
